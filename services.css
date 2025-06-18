@@ -1,0 +1,129 @@
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #942222;
+    height: 10px;
+}
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links a{
+color:black;
+text-decoration: none;
+font-size: 23px;
+}
+#services-html{
+    color: white;
+}
+
+.heading{
+    text-align: center;
+    color: orange;
+}
+#p{
+    margin-top: 1cm;
+    margin-right: 2cm;
+}
+.our-services{
+    display:flex;
+    gap: 4cm;
+    margin-left: 2cm;
+}
+#first-phone{
+    width: 10cm;
+    height: 12cm;
+    border: 1px solid black;
+    border-radius: 10px;
+     padding: 12px 12px 12px 12px;
+}
+
+.first-text{
+    font-size: larger;
+    width: 9cm;
+}
+.second-text{
+    font-size: larger;
+    margin-right: 2cm;
+    width: 9cm;
+}
+#second-phone{
+   width: 10cm;
+    height: 12cm;
+    border: 1px solid black;
+    border-radius: 10px;
+     padding: 12px 12px 12px 12px;
+}
+    
+
+#image{
+     width: 10cm;
+    height: 12cm;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 12px 12px 12px 12px;
+}
+.message{
+    font-size: larger;
+    margin-right: 2cm;
+    width: 9cm;
+
+}
+@media only screen and (max-width:750px) {
+    .our-services{
+        display: block;
+        
+    }
+    #first-phone{
+        width: 6.5cm;
+    }
+    .first-text{
+        width: 7cm;
+
+    }
+    
+    #second-phone{
+        width: 8cm;
+    }
+    .second-text{
+        width: 7cm;
+    }
+    #image{
+        width: 8cm;
+    }
+    .message{
+        width: 7cm;
+    }
+}
+@media only screen and (max-width:751px) and (max-width:999px){
+    .our-services{
+        display: block;
+    }
+     #first-phone{
+        width: 18cm;
+    }
+    .first-text{
+        width: 16cm;
+    }
+     #second-phone{
+        width: 18cm;
+    }
+    .second-text{
+        width: 16cm;
+    }
+    #image{
+        width: 18cm;
+    }
+    .message{
+        width: 16cm;
+    }
+    
+}
