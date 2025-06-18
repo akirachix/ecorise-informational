@@ -1,0 +1,188 @@
+*{
+padding: 0;
+margin: 0;
+ font-family: "Poppins", sans-serif;
+}
+body{
+    overflow-x:hidden;
+}
+.header{
+    min-height: 50vh;
+    width: 100%;
+    background-image: url('aboutus image/image copy 4.png');
+    filter: brightness(0.9);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links a{
+color:black;
+text-decoration: none;
+font-size: 13px;
+}
+.nav-links ul li a::after{
+  /* content: ''; */
+  width: 0%;
+  height:2px;
+  background-color: #F44336;
+  display: block;
+  margin: auto;
+  transform: 0.5s;
+}
+.nav-links ul li a:hover::after{
+    width:0%;
+}
+.mission{
+    position: absolute;
+    width: 550px;
+    padding: 400px 570px;
+}
+.container{
+    /* display: flex; */
+}
+.mission-image{
+    position: absolute;
+    padding: 950px 1250px ;
+}
+.mission-image img{
+    width: 500px;
+}
+form{
+    position: absolute;
+    margin-top: 1620px;
+    margin-left: 600px;
+    width: 700px;
+}
+.mission p{
+    width: 850px;
+}
+#mission-image{
+    width: 500px;
+    height:300px;
+    margin: auto;
+   padding-left: 130px;
+}
+#vision-image{
+width: 500px;
+height: 500px;
+}
+hr{
+    position: absolute;
+}
+/* h3{
+    position: absolute;
+    padding: 1150px;
+} */
+ form input{
+   width: 600px;
+   height: 50px;
+ }
+#feedback{
+    height: 300px;
+}
+button{
+    position: absolute;
+    margin-top:50px ;
+    margin-left: 100px;
+    width: 300px;
+}
+h3{
+    text-align: center;
+}
+#vision-image{
+padding-left: 150px;
+align-content: center;
+}
+footer p{
+    position: fixed;
+    padding: 180px;
+}
+@media (max-width: 768px){
+   /* body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   } */
+   .header{
+    position: relative;
+    flex-direction: column;
+   }
+.mission{
+   position: absolute;
+    width: 10px;
+    padding: 270px 1px;
+}
+.mission p{
+    width: 370px;
+}
+/* .mission-image{
+    position: absolute;
+    padding: 650px 192px ;
+} */
+.mission-image img{
+   width: 170px;
+   height: 200px;
+}
+/* .vision-image{
+    position: absolute;
+    padding: 1650px 200px;
+} */
+.vision-image img{
+    width: 170px;
+}
+form{
+     position: absolute;
+    margin-top: 1980px;
+    margin-left: 1px;
+    width: 700px;
+}
+#mission-image{
+    width: 300px;
+    height:200px;
+    margin: auto;
+   padding-left: 10px;
+}
+h3{
+    text-align: center;
+}
+form input{
+    width: 340px;
+}
+/* footer p{
+    position: fixed;
+    padding: 2800px;
+} */
+}
+#vision-image{
+width: 320px;
+height: 200px;
+padding-left: 10px;
+}
+button{
+    margin-left: 1px;
+}
+h2{
+    width:200px;
+}
+
+
+
+
+
+
