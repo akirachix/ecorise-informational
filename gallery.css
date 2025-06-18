@@ -147,6 +147,48 @@ p{
 .nav.right {
   right: 10px;
 }
+form {
+    width: 70%;
+    margin: auto;
+    background-color:#DA6304;
+    border-radius: 25px;
+    margin-top: 3%;
+    color: white;
+    margin-bottom: 10%;
+}
+.comment {
+    width: 60%;
+    position: relative;
+    left: 15%;
+    padding-top: 3%;
+}
+
+input {
+    width: 90%;
+    border-radius: 15px;
+    
+}
+
+#submit_button {
+    background: none;
+    width: 50%;
+    font-size: 1.5rem;
+    border: none;
+    padding: 8px;
+    background-color: #942222;
+    color: white;
+    cursor: pointer;
+    left: 32%;
+    position: relative;
+    border-radius: 15px;
+    justify-content: center;
+    margin-bottom: 2%;
+
+    a{
+        text-decoration: none;
+    }
+}
+
 
 @media screen and (max-width: 600px) {
   .nav.left {
