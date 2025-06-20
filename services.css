@@ -3,7 +3,6 @@ nav{
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
-    background-color: #942222;
     height: 10px;
 }
 .nav-links{
@@ -17,9 +16,9 @@ nav{
     position: relative;
 }
 .nav-links a{
-color:black;
+color: orange;
 text-decoration: none;
-font-size: 23px;
+font-size: 30px;
 }
 #services-html{
     color: white;
@@ -36,12 +35,12 @@ font-size: 23px;
 .our-services{
     display:flex;
     gap: 4cm;
-    margin-left: 2cm;
+    margin-left: 1cm;
 }
 #first-phone{
     width: 10cm;
     height: 12cm;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 10px;
      padding: 12px 12px 12px 12px;
 }
@@ -58,7 +57,7 @@ font-size: 23px;
 #second-phone{
    width: 10cm;
     height: 12cm;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 10px;
      padding: 12px 12px 12px 12px;
 }
@@ -67,7 +66,7 @@ font-size: 23px;
 #image{
      width: 10cm;
     height: 12cm;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 10px;
     padding: 12px 12px 12px 12px;
 }
@@ -77,13 +76,14 @@ font-size: 23px;
     width: 9cm;
 
 }
-@media only screen and (max-width:750px) {
+@media  screen and (max-width:750px) {
+    
     .our-services{
         display: block;
         
     }
     #first-phone{
-        width: 6.5cm;
+        width: 8cm;
     }
     .first-text{
         width: 7cm;
@@ -102,28 +102,34 @@ font-size: 23px;
     .message{
         width: 7cm;
     }
+    .nav-links a{
+        font-size: 10px;
+    }
 }
-@media only screen and (max-width:751px) and (max-width:999px){
+@media  screen and (max-width:751px) and (max-width:999px){
     .our-services{
         display: block;
     }
      #first-phone{
-        width: 18cm;
+        width: 17cm;
     }
     .first-text{
         width: 16cm;
     }
      #second-phone{
-        width: 18cm;
+        width: 17cm;
     }
     .second-text{
         width: 16cm;
     }
     #image{
-        width: 18cm;
+        width: 17cm;
     }
     .message{
         width: 16cm;
     }
+    .nav-links a{
+        font-size: 13px;
     
+    }
 }
