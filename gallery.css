@@ -8,8 +8,13 @@ nav{
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
-    background-color: #942222;
     height: 10px;
+}
+#nav-a{
+  color: white;
+  background-color:#DA6304 ;
+  padding: 3px;
+  
 }
 .nav-links{
     flex:1;
@@ -22,9 +27,9 @@ nav{
     position: relative;
 }
 .nav-links a{
-color:white;
+color: #DA6304;
 text-decoration: none;
-font-size: 23px;
+font-size: 15px;
 }
 
 h1{
@@ -191,6 +196,12 @@ input {
 
 
 @media screen and (max-width: 600px) {
+
+.nav-links a{
+font-size: 10px;
+}
+  
+  
   .nav.left {
   left: 20px;
 }
@@ -198,6 +209,7 @@ input {
 .nav.right {
   right: 10px;
 }
+
   
   .gallery img {
     width: 200px;
@@ -219,7 +231,7 @@ input {
 }
 .product-2{
   display: block;
-  flex-direction: row;
+  flex-direction: row-reverse;
   gap: 6%;
   position: relative;
   justify-content: space-around;
@@ -231,7 +243,4 @@ input {
 #text{
   font-size: 1.5rem;
 }
-
-
-
 }
