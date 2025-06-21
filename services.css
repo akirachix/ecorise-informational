@@ -1,3 +1,6 @@
+#body{
+    font-family: "Poppins", sans-serif;
+}
 nav{
     display: flex;
     padding: 2% 6%;
@@ -18,15 +21,18 @@ nav{
 .nav-links a{
 color: orange;
 text-decoration: none;
-font-size: 30px;
+font-size: 25px;
 }
 #services-html{
+    background-color: orange;
     color: white;
+    
 }
 
 .heading{
     text-align: center;
     color: orange;
+    font-size: 56px;
 }
 #p{
     margin-top: 1cm;
@@ -35,7 +41,7 @@ font-size: 30px;
 .our-services{
     display:flex;
     gap: 4cm;
-    margin-left: 1cm;
+    margin-left: 0.6cm;
 }
 #first-phone{
     width: 10cm;
@@ -82,6 +88,9 @@ font-size: 30px;
         display: block;
         
     }
+    .heading{
+        font-size: 30px;
+    }
     #first-phone{
         width: 8cm;
     }
@@ -103,10 +112,10 @@ font-size: 30px;
         width: 7cm;
     }
     .nav-links a{
-        font-size: 10px;
+        font-size: 8px;
     }
 }
-@media  screen and (max-width:751px) and (max-width:999px){
+/* @media  screen and (max-width:751px) and (max-width:999px){
     .our-services{
         display: block;
     }
@@ -132,4 +141,4 @@ font-size: 30px;
         font-size: 13px;
     
     }
-}
+} */
