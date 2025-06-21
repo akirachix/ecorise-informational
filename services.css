@@ -82,63 +82,41 @@ font-size: 25px;
     width: 9cm;
 
 }
-@media  screen and (max-width:750px) {
-    
-    .our-services{
-        display: block;
-        
-    }
-    .heading{
-        font-size: 30px;
-    }
-    #first-phone{
-        width: 8cm;
-    }
-    .first-text{
-        width: 7cm;
 
+@media (max-width: 1024px) {
+    .our-services {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin-left: 0;
     }
-    
-    #second-phone{
-        width: 8cm;
+    #first-phone,
+    #second-phone,
+    #image {
+        width: 90%;
+        height: auto;
+        padding: 10px;
     }
-    .second-text{
-        width: 7cm;
+    .first-text,
+    .second-text,
+    .message {
+        width: 90%;
+        font-size: 1rem;
+        margin: 10px 0;
     }
-    #image{
-        width: 8cm;
-    }
-    .message{
-        width: 7cm;
-    }
+
     .nav-links a{
         font-size: 8px;
     }
+    nav {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+
+    }
+    .heading {
+        font-size: 36px;
+        padding: 0 10px;
+    }
 }
-/* @media  screen and (max-width:751px) and (max-width:999px){
-    .our-services{
-        display: block;
-    }
-     #first-phone{
-        width: 17cm;
-    }
-    .first-text{
-        width: 16cm;
-    }
-     #second-phone{
-        width: 17cm;
-    }
-    .second-text{
-        width: 16cm;
-    }
-    #image{
-        width: 17cm;
-    }
-    .message{
-        width: 16cm;
-    }
-    .nav-links a{
-        font-size: 13px;
-    
-    }
-} */
+
