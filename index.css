@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+   
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.7) 90%,  rgba(0,0,0,0.2) 100%), url('images/image.png');
+    position: fixed;
+    background-size: cover;
+    filter: brightness(0.9);
+    background-image:linear-gradient(to top)
+}
+nav {
+  padding-top: 5%;
+  padding-left: 190px;
+  margin-left: 90%;
+  font-size: 25px;
+ 
+  align-items: right;
+  gap: 5%;
+  position: relative;
+}
+#image-logo{
+    position: absolute;
+    width: 150px;
+    padding-top: 5px;
+    display: inline-block;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 25px;
+  font-size: 17px;
+  color: white;
+  text-align: right;
+}
+.hamburger {
+  display: none;
+  font-size: 22px;
+  cursor: pointer;
+  margin: -15% 0% 0% 86%;
+}
+.nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+  align-items: right;
+  transition: right 0.3s;
+}
+.close-btn {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 35px;
+  right: 32px;
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 64px;
+}
+.header-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border:1px solid #fff;
+    padding: 12px 34px;
+    font-size: 24px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 24px;
+    color: white;
+}
+#openMenu{
+    color: white;
+    
+}
+#closeMenu{
+    color: white;
+}
+
+
+@media(max-width:700px){
+    body{
+        overflow-x: hidden;
+    }
+    .text-box h1{
+        font-size: 30px;
+
+    }
+    
+    .text-box p{
+        font-size: 16px;
+    }
+    
+      .nav-menu {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    right: -100vw;
+    background: maroon;
+    width: 100%;
+    height: 100vh;
+    padding-top: 90px;
+    z-index: 1000;
+    gap: 30px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transition: right 0.3s;
+  }
+
+  .nav-menu.active {
+    right: 0;
+  }
+  .hamburger {
+    margin-top: 5%;
+    display: block;
+  }
+  .close-btn {
+    display: block;
+  }
+  nav {
+    gap: 0;
+  }
+  .nav-menu a{
+    text-align: left;
+    margin-left: 12%;
+  }
+  nav {
+  padding-top: 5%;
+  padding-left: 10px;
+  margin-left: 35%;
+  font-size: 25px;
+  
+  align-items: left;
+  gap: 5%;
+  position: relative;
+}
+ 
+}
+@media (min-width: 769px) and (max-width: 1366px) {
+     nav {
+  padding-top: 3%;
+  padding-left: 35px;
+  margin-left: 25%;
+  font-size: 35px;
+  
+  align-items: left;
+  gap: 1%;
+  position: relative;
+}
+.nav-menu a{
+    font-size: 19px;
+} 
+
+}
+@media only screen and(width:1024px){
+        #navMenu a{
+      
+        font-size: large;
+    }
+
+   .nav-menu a{
+    font-size: 60px;
+}
+.nav-menu{
+  padding-top: 3%;
+  padding-left: 35px;
+  
+  font-size: 100px;
+  align-items: left;
+  gap: 1%;
+  padding-left: -80%;
+}
+    nav {
+  padding-top: 3%;
+  padding-left: 35px;
+  margin-left: 25%;
+  font-size: 100px;
+  align-items: left;
+  gap: 1%;
+  padding-left: -80%;
+
+  
+}
+}
+@media(width:820px){
+    #navMenu a{
+        font-size: 100px;
+        font-size: large;
+    }
+
+   .nav-menu a{
+    font-size: 28px;
+} 
+    nav {
+  padding-top: 3%;
+  padding-left: 35px;
+  margin-left: 25%;
+  font-size: 10px;
+  
+  align-items: left;
+  gap: 1%;
+  position: relative;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+ nav {
+  padding-top: 3%;
+  padding-left: 65px;
+  margin-left: 25%;
+  font-size: 35px;
+  
+  align-items: left;
+  gap: 1%;
+  position: relative;
+}
+
+}
+
+    
+  nav {
+  padding-top: 3%;
+  padding-left: 145px;
+  margin-left: 35%;
+  font-size: 35px;
+  
+  align-items: left;
+  gap: 5%;
+  position: relative;
+}
+.text-box h1{
+    font-size: 39px;
+}
+
+@media(width:1024px) {
+    nav {
+  padding-top: 3%;
+  padding-left: 1px;
+  margin-left: 35%;
+  font-size:65px;
+  
+  align-items: left;
+  gap: 5%;
+  position: relative;
+}
+
+}
+@media(min-width:1281px) {
+   nav {
+  padding-top: 3%;
+  padding-left: 125px;
+  margin-left: 35%;
+  font-size: 25px;
+ 
+  align-items: left;
+  gap: 5%;
+  position: relative;
+} 
+    
+}
