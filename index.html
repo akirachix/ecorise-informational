@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"rel="stylesheet">
-      <link rel="stylesheet" href="index.css">
-    <link href="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+      <link rel="stylesheet" href="style.css">
+    <!-- <link href="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"> -->
 </head>
 
 <body>
@@ -27,7 +27,7 @@
     <a href="#" id="link">Home</a>
     <a href="" id="link1">About Us</a>
     <a href="#gallery" id="link2">Gallery</a>
-    <a href="#services" id="link3">Services</a>
+    <a href="#services"id= "link3">Services</a>
     <a href="" id="link4">Contact</a>
   </div>
 </nav>
@@ -51,7 +51,7 @@
      </div>
      
     <div id="scroll-row">
-      <span class="arrow-btn left-arrow" onclick="scrollRowLeft('row1')" id="left"> <i class="fas fa-angle-left" style="color: white;"></i></span>
+      <div class="arrow-btn left-arrow" onclick="scrollRowLeft('row1')" id="left"> <i class="fas fa-angle-left" style="color: white;"></i></div>
       <div class="image-container" id="row1">
         
         <img src="gallery/home1.jpeg">
@@ -67,7 +67,7 @@
 
  
       </div>
-      <span class="arrow-btn right-arrow" onclick="scrollRight('row1')"> <i class="fas fa-angle-right" style="color: white;"></i></span>
+      <div class="arrow-btn right-arrow" onclick="scrollRight('row1')"> <i class="fas fa-angle-right" style="color:  white;;"></i></div>
     </div>
     <div id="title">
       <h3>Fashion</h3>
@@ -75,7 +75,7 @@
     </div>
     <!-- Row 2 -->
     <div id="scroll-row">
-      <span class="arrow-btn left-arrow" onclick="scrollRowLeft('row2')" id=""> <i class="fas fa-angle-left" style="color: white;"></i></i></span>
+      <span class="arrow-btn left-arrow" onclick="scrollRowLeft('row2')" id=""> <i class="fas fa-angle-left" style="color: white;;"></i></i></span>
       <div class="image-container" id="row2">
         <img src="gallery/fashion1.jpeg">
         <img src="gallery/fashion2.jpeg">
@@ -90,14 +90,14 @@
         <img src="gallery/fashion11.jpeg">     
         
       </div>
-      <span class="arrow-btn right-arrow" onclick="scrollRight('row2')" id="rowId"> <i class="fas fa-angle-right" style="color: white;"></i></span>
+      <span class="arrow-btn right-arrow" onclick="scrollRight('row2')" id="rowId"> <i class="fas fa-angle-right" style="color:  white;;"></i></span>
     </div>
     <!-- Row 3 -->
      <div id="title">
       <h3>Bags</h3>
      </div>
     <div id="scroll-row">
-      <span class="arrow-btn left-arrow" onclick="scrollRowLeft('row3')"> <i class="fas fa-angle-left" style="color: white;"></i></span>
+      <span class="arrow-btn left-arrow" onclick="scrollRowLeft('row3')"> <i class="fas fa-angle-left" style="color:  white;;"></i></span>
       <div class="image-container" id="row3">
         <img src="gallery/bag1.jpeg">
         <img src="gallery/bag2.jpeg">
@@ -111,10 +111,19 @@
         
         
       </div>
-      <span class="arrow-btn right-arrow" onclick="scrollRight('row3')"> <i class="fas fa-angle-right" style="color: white;"></i></span>
+      <!-- <span class="arrow-btn right-arrow" onclick="scrollRight('row3')"> <i class="fas fa-angle-right" style="color:  rgb(233, 8, 8);"></i></span> -->
+       <span class="arrow-btn left-arrow" onclick="scrollRowLeft('row1')" id="left">
+  <i class="fa-solid fa-angle-left" style="color: white;"></i>
+</span>
+<div class="image-container" id="row1">
+  <!-- images here -->
+</div>
+<span class="arrow-btn right-arrow" onclick="scrollRight('row1')">
+  <i class="fa-solid fa-angle-right" style="color: white;"></i>
+</span>
     </div>
   </section>
-  <section>
+  <section id="services">
      <h1 class="heading">Our Services</h1>
     <br>
     <div class="our-services">
