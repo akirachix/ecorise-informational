@@ -1,1 +1,0 @@
-# ecorise-informational
