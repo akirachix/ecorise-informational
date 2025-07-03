@@ -1,3 +1,17 @@
+submit = document.getElementById('submit-form').addEventListener('submit',
+    function (event) {
+        event.preventDefault();
+        const name = document.getElementById('name').value;
+        const location = document.getElementById('location').value;
+        console.log('name')
+        console.log('location')
+        this.reset();
+    });
+
+
+
+    
+
 
 const openMenu = document.getElementById('openMenu');
 const closeMenu = document.getElementById('closeMenu');
@@ -18,6 +32,10 @@ closeMenu.addEventListener('click', () => {
 });
 link.addEventListener('click', () => {
   navMenu.classList.remove('active');
+  
+});
+link1.addEventListener('click', () => {
+   navMenu.classList.remove('active');
   
 });
 link2.addEventListener('click', () => {
